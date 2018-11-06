@@ -54,7 +54,6 @@ namespace WindowsFormsApp1
         {
             try
             {
-
                 /**
                  * Instance cts variable. This is required to "restart" or "recreate" the task
                  ***/
