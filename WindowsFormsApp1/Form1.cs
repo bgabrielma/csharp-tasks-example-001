@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
             button1.Enabled = true;
         }
 
-        private void DownloadWebsite(string url)
+        private static void DownloadWebsite(string url)
         {
             WebClient client = new WebClient();
             client.DownloadString(url);
